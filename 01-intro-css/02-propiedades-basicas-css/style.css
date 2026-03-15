@@ -1,0 +1,56 @@
+
+body{
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.titulo{
+   font-family: "Pacifico", cursive;
+   font-size: 2rem;
+   font-weight: 100;
+   font-style: normal;
+   text-align: center;
+}
+
+/* p{
+    background-color: #373737;
+    text-align: center;
+} */
+
+.btn-box{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 25px 0 25px 0;
+    border: none;
+}
+
+#portada{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#portada img{
+    border: 25px solid orange;
+    padding: 80px;
+    background-color: aliceblue;
+    width: 200px;
+}
+
+
+/* Card Styles */
+
+.user-card{
+    width: 300px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.user-card-info img{
+    border-radius: 50%;
+}
