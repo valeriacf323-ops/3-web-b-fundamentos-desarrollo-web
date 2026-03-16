@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(147, 147, 39);
+    color: #fff;
+}
+h1{
+    font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+}
+#miParrafo {
+    color: blueviolet
+}
+
+.p {
+    color: orange;
+}
+
+p {
+    color: black !important;
+}
+
+/* Ejemplo position */
+.parent{
+    background-color: rgb(58, 18, 18);
+    width: 400px;
+    height: 300px;
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    position: sticky;
+    top: 0;
+}
+.parent h1{
+    position: absolute;
+    font-size: 4.5rem;
+    left: 20%;
+    bottom: 20%;
+    z-index: 2;
+}
+.parent img{
+    position: absolute;
+}
+
+.orange{
+    right: 0;
+    top: 7%;
+    z-index: 1;
+    width: 200px;
+    transform: rotate(35deg);
+}
+.leaf{
+    bottom: 18%;
+    left: -3%;
+    z-index: 3;
+    transform: rotate(-32deg);
+}
